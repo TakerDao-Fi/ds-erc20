@@ -8,7 +8,7 @@
 // required for copyright to apply.  As a result, this is free and
 // unencumbered software belonging to the public domain.
 
-pragma solidity >0.6.12;
+pragma solidity >=0.6.12;
 
 contract ERC20Events {
     event Approval(address indexed src, address indexed guy, uint wad);

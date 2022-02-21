@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: AGPL-3.0-or-later
+
 /// erc20.sol -- API for the ERC20 token standard
 
 // See <https://github.com/ethereum/EIPs/issues/20>.
@@ -6,7 +8,7 @@
 // required for copyright to apply.  As a result, this is free and
 // unencumbered software belonging to the public domain.
 
-pragma solidity >0.4.20;
+pragma solidity >0.6.12;
 
 contract ERC20Events {
     event Approval(address indexed src, address indexed guy, uint wad);
